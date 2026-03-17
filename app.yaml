@@ -10,7 +10,7 @@ workers:
     github:
       branch: main
       deploy_on_push: true
-      repo: digitalocean-labs/openclaw-appplatform
+      repo: rodneymandap/openclaw-appplatform
     envs:
       # ============================================================
       # REQUIRED
