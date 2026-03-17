@@ -1,5 +1,5 @@
 name: openclaw
-region: tor # Available: nyc, ams, sfo, sgp, lon, fra, blr, syd, tor
+region: sgp # Available: nyc, ams, sfo, sgp, lon, fra, blr, syd, tor
 
 workers:
   - name: openclaw
@@ -71,7 +71,7 @@ workers:
         type: SECRET
       - key: RESTIC_SPACES_ENDPOINT
         scope: RUN_TIME
-        value: tor1.digitaloceanspaces.com
+        value: sgp1.digitaloceanspaces.com
       - key: RESTIC_SPACES_BUCKET
         scope: RUN_TIME
         value: openclaw-backup
