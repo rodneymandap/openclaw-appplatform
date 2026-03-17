@@ -44,6 +44,8 @@ workers:
       # Set ENABLE_NGROK=true and provide your authtoken
       # Get token: https://dashboard.ngrok.com/get-started/your-authtoken
       # ============================================================
+      - key: ENABLE_NGROK
+        value: "true"
       - key: NGROK_AUTHTOKEN
         scope: RUN_TIME
         type: SECRET
