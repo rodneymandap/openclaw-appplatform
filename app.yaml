@@ -28,7 +28,7 @@ workers:
       # ============================================================
       - key: ENABLE_NGROK
         scope: RUN_TIME
-        value: "false"
+        value: "true"
       - key: TAILSCALE_ENABLE
         scope: RUN_TIME
         value: "false"
@@ -44,8 +44,6 @@ workers:
       # Set ENABLE_NGROK=true and provide your authtoken
       # Get token: https://dashboard.ngrok.com/get-started/your-authtoken
       # ============================================================
-      - key: ENABLE_NGROK
-        value: "true"
       - key: NGROK_AUTHTOKEN
         scope: RUN_TIME
         type: SECRET
@@ -95,4 +93,4 @@ workers:
         value: "false"
       - key: GITHUB_USERNAME
         scope: RUN_TIME
-        value: ""
+        value: "rodneymandap"
