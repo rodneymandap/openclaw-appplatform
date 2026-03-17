@@ -28,10 +28,10 @@ workers:
       # ============================================================
       - key: ENABLE_NGROK
         scope: RUN_TIME
-        value: "true"
+        value: "false"
       - key: TAILSCALE_ENABLE
         scope: RUN_TIME
-        value: "false"
+        value: "true"
       - key: ENABLE_SPACES
         scope: RUN_TIME
         value: "false"
