@@ -34,7 +34,7 @@ workers:
         value: "true"
       - key: ENABLE_SPACES
         scope: RUN_TIME
-        value: "false"
+        value: "true"
       - key: ENABLE_UI
         scope: RUN_TIME
         value: "true"
@@ -74,7 +74,7 @@ workers:
         value: sgp1.digitaloceanspaces.com
       - key: RESTIC_SPACES_BUCKET
         scope: RUN_TIME
-        value: openclaw-backup
+        value: openclaw-bucket
       - key: RESTIC_PASSWORD
         scope: RUN_TIME
         type: SECRET
