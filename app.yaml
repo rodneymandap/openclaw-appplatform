@@ -8,8 +8,7 @@ workers:
     instance_count: 1
     instance_size_slug: apps-s-1vcpu-2gb # Minimum 2GB required - 1GB causes heap overflow
     github:
-      branch: main
-      deploy_on_push: true
+      branch: develop 
       repo: rodneymandap/openclaw-appplatform
     envs:
       # ============================================================
@@ -28,13 +27,13 @@ workers:
       # ============================================================
       - key: ENABLE_NGROK
         scope: RUN_TIME
-        value: "true"
+        value: "false"
       - key: TAILSCALE_ENABLE
         scope: RUN_TIME
-        value: "false"
+        value: "true"
       - key: ENABLE_SPACES
         scope: RUN_TIME
-        value: "false"
+        value: "true"
       - key: ENABLE_UI
         scope: RUN_TIME
         value: "true"
